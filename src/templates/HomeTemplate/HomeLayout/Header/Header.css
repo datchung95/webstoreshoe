@@ -1,0 +1,24 @@
+#header .header-nav .navbar-nav .nav-item .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s;
+}
+
+#header .header-nav .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 991.99px) {
+    #header .header__column {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    #header .header__bottom .header__cart {
+        left: 5%!important
+    }
+
+    #header .header__bottom ul li {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 991.99px) {
+    #cart .cart__right .cart__delete {
+        margin-top: 5px;
+        text-align: end;
+    }
+
+    #cart .cart__right .cart__price {
+        justify-content: flex-end;
+        margin-bottom: 10px;
+    }
+
+    #cart .cart__right .cart__upDown {
+        justify-content: flex-end;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    #cart .cart__left {
+        display: block!important;
+    }
+}
